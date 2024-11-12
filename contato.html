@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-              <img src="img/padaria senac.png" alt="Logo" width="45" height="32" class="d-inline-block align-text-top">
+              <img src="img/Logo Verde de Restaurante.png" alt="Logo" width="45" height="32" class="d-inline-block align-text-top">
               Padaria Senac
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,25 +64,22 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-4">
-            <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=2140028922" role="button">Whatsapp</a>
         </div>
     </div>
 </div> 
-<form
-  action="https://formspree.io/f/xqakbbeg"
-  method="POST"
->
-  <label>
-    Digite seu email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Sua mensagem:
-    <textarea name="message"></textarea>
-  </label>
   <!-- your other form fields go here -->
-  <button type="submit">enviar</button>
-</form>
+<form action="https://formspree.io/f/xqakbbeg" method="POST">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Esse e-mail será o que iremos entrar em contato com voce.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">mensagem</label>
+      <input type="mensage" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
   <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </footer>
